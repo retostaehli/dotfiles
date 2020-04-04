@@ -31,5 +31,5 @@ decode () {
 	echo "$1" | base64 -d 
 }
 alarm () {
-	sudo watch -n 0.3 'netstat -pantl | grep "ESTABLISHED\|LISTEN"'
+	sudo watch -n 0.3 'netstat -pantl | grep "ESTABLISHED\|LISTEN" | grep -v "spotify\|vmware-authdla"'
 }
