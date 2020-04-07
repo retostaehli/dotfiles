@@ -22,6 +22,7 @@ alias nightlight='gsettings set org.gnome.settings-daemon.plugins.color night-li
 alias daylight='gsettings set org.gnome.settings-daemon.plugins.color night-light-enabled false'
 alias e='evince'
 alias sd='sudo ' #Keep alias expansion while working with sudo
+alias sp='searchsploit'
 #Settings
 HISTFILE=~/.zsh_history
 HISTSIZE=100000
