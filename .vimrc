@@ -28,3 +28,7 @@ set hlsearch "Highlight whole word when searching
 set ignorecase "Ignore case while searchong
 set smartcase "Dont ignore case if search has capital letter
 set pastetoggle=<F2>
+"===============================================
+"Behavioural changes
+"==============================================
+let g:ycm_autoclose_preview_window_after_completion = 1
